@@ -28,7 +28,7 @@ def rules_jq_dependencies():
 
 _DOC = "TODO"
 _ATTRS = {
-    "jq_version": attr.string(mandatory = True),
+    "jq_version": attr.string(default = "(?<currentValue>.*)", mandatory = False),  # renovatebot datasource=github-releases depName=jqlang/jq
     "platform": attr.string(mandatory = True, values = PLATFORMS.keys()),
 }
 

@@ -1,0 +1,7 @@
+{
+  "jq": {
+    "renovate_datasource": "github-tags",
+    "renovate_depname": "jqlang/jq",
+    "version": "jq-1.6"
+  }
+}
